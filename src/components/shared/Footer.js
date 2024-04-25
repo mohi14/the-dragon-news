@@ -3,7 +3,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import Link from "next/link";
 
 const Footer = () => {
-    const navItems = [{ route: "Home", pathName: "/" }, { route: "Pages", pathName: "/pages" }, { route: "Category", pathName: "/category" }, { route: "News", pathName: "/news" }, { route: "About", pathName: "/about" }, { route: "Contact", pathName: "/contact" }];
+    const navItems = [{ route: "Home", pathName: "/" }, { route: "Pages", pathName: "/pages" }, { route: "Category", pathName: "/categories/news" }, { route: "News", pathName: "/news" }, { route: "About", pathName: "/about" }, { route: "Contact", pathName: "/contact" }];
     return (
         <Box className="bg-black px-2 py-10">
             <Container>

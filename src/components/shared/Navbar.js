@@ -14,7 +14,7 @@ import Link from 'next/link';
 import Header from './Header';
 
 
-const navItems = [{ route: "Home", pathName: "/" }, { route: "Pages", pathName: "/pages" }, { route: "Category", pathName: "/category" }, { route: "News", pathName: "/news" }, { route: "About", pathName: "/about" }, { route: "Contact", pathName: "/contact" }];
+const navItems = [{ route: "Home", pathName: "/" }, { route: "Pages", pathName: "/pages" }, { route: "Category", pathName: "/categories/news?category=all-news" }, { route: "News", pathName: "/news" }, { route: "About", pathName: "/about" }, { route: "Contact", pathName: "/contact" }];
 
 
 function Navbar() {

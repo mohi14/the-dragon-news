@@ -1,7 +1,18 @@
+import LatestNews from "@/components/ui/LatestNews/LatestNews";
+import SideBar from "@/components/ui/SideBar/SideBar";
+import { Grid } from "@mui/material";
+
 export default function HomePage() {
   return (
     <div>
-      <h1>Welcome to news home page</h1>
+      <Grid container spacing={2}>
+        <Grid item xs={8}>
+          <LatestNews />
+        </Grid>
+        <Grid item xs={4}>
+          <SideBar />
+        </Grid>
+      </Grid>
     </div>
   )
 }
